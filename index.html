@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ff8fbd" />
+  <meta name="description" content="A romantic fourth anniversary surprise." />
+  <title>Our 4th Anniversary 💗</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bgMusic" src="assets/music.mp3" loop></audio>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main class="app">
+    <section id="introScreen" class="screen active" aria-labelledby="introTitle">
+      <div class="intro-copy">
+        <p class="eyebrow">A little surprise for you</p>
+        <h1 id="introTitle">Happy 4th Anniversary, My Love 💗</h1>
+        <p>Tap the envelope to open something made especially for you.</p>
+      </div>
+
+      <button id="envelopeButton" class="envelope-button" aria-label="Open the anniversary envelope">
+        <div class="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter-preview">
+            <span>For My Love</span>
+            <small>Tap to open</small>
+          </div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="heart-seal">♥</div>
+        </div>
+      </button>
+    </section>
+
+    <section id="memoryScreen" class="screen" aria-labelledby="memoryTitle">
+      <div class="memory-header">
+        <p class="eyebrow">Four years of us</p>
+        <h2 id="memoryTitle">Our Favorite Memories</h2>
+        <p>Every picture carries a piece of our story.</p>
+      </div>
+
+      <div class="memory-stage">
+        <div id="photoRing" class="photo-ring" aria-label="Photo memories"></div>
+
+        <button id="foldedLetterButton" class="folded-letter-button" aria-label="Open the folded anniversary letter">
+          <div class="folded-paper">
+            <div class="fold-line fold-line-one"></div>
+            <div class="fold-line fold-line-two"></div>
+            <span>Open My Letter</span>
+            <small>Made with all my heart</small>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section id="letterScreen" class="screen letter-screen" aria-labelledby="letterTitle">
+      <div class="letter-shell">
+        <article class="love-letter">
+          <p class="letter-date">Our 4th Anniversary</p>
+          <h2 id="letterTitle">To My Dearest Love,</h2>
+
+          <div class="letter-body">
+            <p>
+              Happy 4 years of love, my love! 
+             Sa loob ng 4 years na kasama ka ay sobrang sarap sa feeling na meron akong ikaw.
+              Yung mga bonding natin together na sobrang random, kakain sa labas, magkakape, 
+              kwentuhan while naglalakad, inisan to the max na mas nauuna akong mainis, 
+              at mga bonding na unexpected natin. More years to go and bonding with me.
+            </p>
+
+            <p>
+              Thank you for being my soulmate, partner, kakampi, 
+              bestfriend, running partner, and my safe place. |
+              Pahinga ang lagi kong nararamdaman sa tuwing nakikita or nakakasama kita.
+               Sobrang sarap sa feeling na may nagmamahal sa akin unconditionally.
+            </p>
+
+            <p>
+              Hindi ko man ma-express nang maayos ang pagmamahal ko verbally, pero nailalabas ko
+              naman ito in other way. Tandaan mo na mahal na mahal kita, 
+              at mas Lalo kitang mamahalin sa araw-araw. 
+              Sa araw-araw kitang nakikitang masaya sa piling ko lalo akong nahuhulog at nahuhumaling sayo.
+            </p>
+
+            <p>
+              Kahit ano man mangyari sa ating future basta kasama ka ay kayang kaya at
+               kakayanin yan, ano man ang unos, problema, or mga balakid sa relasyon 
+               natin ay parehas natin tong aayusin o bibigyan ng solusyon. 
+               Sa mga susunod na taon ay hinihiling ko na mas tumibay ang relationship
+                natin sa isa't isa hindi lang sa atin kung hindi kay Lord din syempre,
+                 kung wala si Lord walang katulad mo sa buhay ko.
+            </p>
+          </div>
+
+          <p class="signature">
+            Forever yours,<br />
+            <strong>Your Love 💙</strong>
+          </p>
+
+          <button id="closeLetterButton" class="primary-button">Finish Reading</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="finalScreen" class="screen final-screen" aria-labelledby="finalTitle">
+      <div class="final-card">
+        <div class="final-heart">♥</div>
+        <p class="eyebrow">Four years and forever to go</p>
+        <h2 id="finalTitle">Happy Anniversary!</h2>
+        <p class="love-message">I loveee youuuu soooo muchh! 💗</p>
+        <p>Thank you for being the most beautiful part of my life.</p>
+        <button id="replayButton" class="secondary-button">Replay My Surprise</button>
+      </div>
+    </section>
+  </main>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Pause music" title="Pause music">
+    ♪
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
